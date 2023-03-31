@@ -1,4 +1,6 @@
-# transformers-project
+# Should I use an RNN or a Transformer? An exploration of the impact of dataset size on sequential data prediction models.
+
+Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 
 ### Overview (25)
 
