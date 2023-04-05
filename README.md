@@ -36,14 +36,14 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
   - Trained until validation accuracy stopped improving
   - Fixed hyperparameters
   - More details in code demo
-  - **INSERT PARAM COUNT** parameters here
+  - 268732673 total parameters
   - **INSERT INFERENCE TIME**
 - LSTM
   - Input: first 2 seconds of data (memory issues)
   - Binary classification on output of LSTM
   - Trained for 10 epochs (time issues)
   - Fixed hyperparameters
-  - **INSERT PARAM COUNT**  
+  - 2065153 total parameters 
   - **INSERT INFERENCE TIME**
 
 ### Results
