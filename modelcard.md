@@ -17,7 +17,9 @@ These models are intended to be used by researchers or students interested in ex
 As the model is used for speech classification, factors such as gender, race, or accent may be relevant. We chose a dataset that attempted to be diverse in these categories, but there could still be biases in the dataset or models. We do not evaluate the performance of our model on these different factors. For that reason, we advise against a real-world application of our models.
 
 ### Metrics
+We only consider accuracy as a metric in this project. Accuracy is defined in the typical way for binary classification in this model (see equation below.) We only chose accuracy due to the limited scope of this project, but more metrics (like ROC AUC, F1 score, etc.) should be considered in the future.
 
+$$Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
 
 ### Evaluation Data
 10798 validation
