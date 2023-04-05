@@ -26,8 +26,31 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 
 **INSERT EXAMPLE WAV DATA PLOT HERE**
 
-## Code Demo
+### Training
+- Consider 4 training dataset splits
+  - 25%, 50%, 75%, and 100% data available 
+- Encoder Transformer with binary classification head
+  - Input: entire raw audio sequence
+  - Use 1D Convolutional layers to reduce the sequence length to 512
+  - Learned positional encodings
+  - Trained until validation accuracy stopped improving
+  - Fixed hyperparameters
+  - More details in code demo
+  - **INSERT PARAM COUNT** parameters here
+  - **INSERT INFERENCE TIME**
+- LSTM
+  - Input: first 2 seconds of data (memory issues)
+  - Binary classification on output of LSTM
+  - Trained for 10 epochs (time issues)
+  - Fixed hyperparameters
+  - **INSERT PARAM COUNT**  
+  - **INSERT INFERENCE TIME**
 
+### Results
+**INSERT RESULS HERE**
+
+## Code Demo
+**ADD MODEL ARCHITECTURE IN DEMO**
 
 ## Model Card
 The model card is stored in the [modelcard.md](modelcard.md) file. Please carefully read this model card before attempting to use our pretrained models.
