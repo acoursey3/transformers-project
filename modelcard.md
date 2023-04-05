@@ -21,19 +21,23 @@ We only consider accuracy as a metric in this project. Accuracy is defined in th
 
 $$Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
 
-### Evaluation Data
-10798 validation
-4643 test (text to speech higher quality for this)
-
 ### Training Data
-53866 samples (about half)
-Used for norm partition (sampling rate normalized, 1 audio channel, we don't expect it changes anything)
+- Trained on [Fake or Real](https://ieeexplore.ieee.org/document/8906599) dataset
+- Used `for-norm` version publicly available at [this link](https://bil.eecs.yorku.ca/datasets/) 
+  - Balanced in terms of gender and class, preprocessed
+- 53,866 audio samples of human utterances (real) or text-to-speech (fake)
+- The dataset was designed with factors such as accent and gender in mind
+
+### Evaluation Data
+- Used same dataset as for training
+- 10,798 samples in the validation split
+- 4,643 samples in the test split (the test split is designed to be more difficult)
 
 ### Quantitative Analyses
-
+**(ADD LATER)**
 
 ### Ethical Considerations
-
+Since this model deals with human data, we do not recommend to use it outside of an academic setting. We do not consider our model to be ethical enough to use in the real world. Inaccurate or baised predictions could lead to unfair treatment of groups if this model was applied in a real world setting. We chose a dataset that considered these factors in an attempt to mitigate ethical issues, but we do not analyze the impact of our model on gender or accent.
 
 ### Caveats and Recommendations
-
+We again recommend this model be used for academic purposes only. Further work can be done on this model to extend it to new domains and analyze the ethical impacts.
