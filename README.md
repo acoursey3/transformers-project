@@ -56,7 +56,21 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 The model card is stored in the [modelcard.md](modelcard.md) file. Please carefully read this model card before attempting to use our pretrained models.
 
 ## Critical Analysis
+- In this project, we learned ... **INSERT IMPACT OF PROJECT AND WHAT IT REVEALS**
+- We wrote code for Tree-Structured Parzen Estimator hyperparameter optimization, but computation time was an issue. The hyperparameters may not be optimal, so our results might change with optimal hyperparameters.
+- We did not perform any gender/accent bias analysis
+- Limited evaluation metrics
+- This dataset may not be representative of their performance on other tasks
 
+**Next Steps**
+- Optimize hyperparameters
+- Explore more datasets (different domains and tasks)
+- Calculate more evaluation metrics
 
 ## Resource Links
-
+- FOR paper
+- FOR download link
+- LSTM explanation
+- Paper comparing transformer and lstm
+- TPE hyperparameter optimization
+- Hackers clone CEO voice
