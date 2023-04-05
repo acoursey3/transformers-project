@@ -24,7 +24,7 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 - 53,866 samples in train, 10,798 in validation, 4,643 in test
 - Test is designed to be harder and more realistic
 
-**INSERT EXAMPLE WAV DATA PLOT HERE**
+![Example input waveforms for our networks.](https://github.com/acoursey3/transformers-project/blob/main/pics/audio_sample.png?raw=true)
 
 ### Training
 - Consider 4 training dataset splits
