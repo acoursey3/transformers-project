@@ -13,8 +13,18 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 
 **Research question:** *Will an LSTM outperform a Transformer model on audio classification when the dataset size is small?*
 
-## Method Overview and Results
+- We explore this question and find ...
 
+## Method and Results
+
+### Fake or Real Dataset
+- Dataset of human (real) or text-to-speech (fake) speech utterances
+- A few seconds
+- Balanced gender and classes
+- 53,866 samples in train, 10,798 in validation, 4,643 in test
+- Test is designed to be harder and more realistic
+
+**INSERT EXAMPLE WAV DATA PLOT HERE**
 
 ## Code Demo
 
