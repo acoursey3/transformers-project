@@ -68,9 +68,9 @@ The model card is stored in the [modelcard.md](modelcard.md) file. Please carefu
 - Calculate more evaluation metrics
 
 ## Resource Links
-- FOR paper
-- FOR download link
-- LSTM explanation
-- Paper comparing transformer and lstm
-- TPE hyperparameter optimization
-- Hackers clone CEO voice
+- [FOR paper](https://bil.eecs.yorku.ca/wp-content/uploads/2020/01/FoR-Dataset_RR_VT_final.pdf)
+- [FOR download link](https://bil.eecs.yorku.ca/datasets/#:~:text=scroll%20to%20access\)-,The%20Fake-or-Real%20Dataset,classifiers%20to%20detect%20synthetic%20speech.)
+- [LSTM overview](https://medium.com/@ottaviocalzone/an-intuitive-explanation-of-lstm-a035eb6ab42c#:~:text=The%20LSTM%20architecture%20contrasts%20the,depends%20on%20the%20cell%20state.)
+- [Paper comparing transformer and lstm for audio](https://arxiv.org/abs/1909.06317)
+- [TPE hyperparameter optimization library](https://optuna.readthedocs.io/en/stable/reference/samplers/generated/optuna.samplers.TPESampler.html)
+- [Hackers clone CEO's voice](https://www.wsj.com/articles/fraudsters-use-ai-to-mimic-ceos-voice-in-unusual-cybercrime-case-11567157402)
