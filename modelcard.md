@@ -34,7 +34,7 @@ $$Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
 - 4,643 samples in the test split (the test split is designed to be more difficult)
 
 ### Quantitative Analyses
-**(ADD LATER)**
+See results section of README.md.
 
 ### Ethical Considerations
 Since this model deals with human data, we do not recommend to use it outside of an academic setting. We do not consider our model to be ethical enough to use in the real world. Inaccurate or baised predictions could lead to unfair treatment of groups if this model was applied in a real world setting. We chose a dataset that considered these factors in an attempt to mitigate ethical issues, but we do not analyze the impact of our model on gender or accent.
