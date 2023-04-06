@@ -55,11 +55,11 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 
 2. Evaluation
 
-![Evaluation accuracies.](https://github.com/acoursey3/transformers-project/blob/main/results/updated_results.png?raw=true)
+![Evaluation accuracies.](https://github.com/acoursey3/transformers-project/blob/main/results/newtable1.png?raw=true)
 
 3. Generalization
 
-![Generalization for different models.](https://github.com/acoursey3/transformers-project/blob/main/results/generalize.png?raw=true)
+![Generalization for different models.](https://github.com/acoursey3/transformers-project/blob/main/results/newtable2.png?raw=true)
 
 - Note: the CNN has 1,624,837 total parameters.
 
