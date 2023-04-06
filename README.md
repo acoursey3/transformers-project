@@ -13,7 +13,7 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 
 **Research question:** *Will an LSTM outperform a Transformer model on audio classification when the dataset size is small?*
 
-- We explore this question and find ...
+- We explore this question and find that the Transformer model outperforms the LSTM in terms of generalization abilities regardless of the dataset size.
 
 ## Method and Results
 
@@ -36,15 +36,13 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
   - Trained until validation accuracy stopped improving
   - Fixed hyperparameters
   - More details in code demo
-  - 268732673 total parameters
-  - **INSERT INFERENCE TIME**
+  - 268,732,673 total parameters
 - LSTM
   - Input: first 2 seconds of data (memory issues)
   - Binary classification on output of LSTM
   - Trained for 10 epochs (time issues)
   - Fixed hyperparameters
-  - 2065153 total parameters 
-  - **INSERT INFERENCE TIME**
+  - 2,065,153 total parameters 
 
 ### Results
 
@@ -64,7 +62,7 @@ See the file "demo.ipynb" for the code demo.
 The model card is stored in the [modelcard.md](modelcard.md) file. Please carefully read this model card before attempting to use our pretrained models.
 
 ## Critical Analysis
-- In this project, we learned ... **INSERT IMPACT OF PROJECT AND WHAT IT REVEALS**
+- This project reveals that Transformer models may have advantages over RNN models even with limited data. This can impact model design decisions in future projects.
 - We wrote code for Tree-Structured Parzen Estimator hyperparameter optimization, but computation time was an issue. The hyperparameters may not be optimal, so our results might change with optimal hyperparameters.
 - We did not perform any gender/accent bias analysis
 - Limited evaluation metrics
