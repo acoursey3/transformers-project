@@ -38,12 +38,14 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
   - Fixed hyperparameters
   - More details in code demo
   - 268,732,673 total parameters
+  - Evaluation time over entire test dataset: ?
 - LSTM
   - Input: first 2 seconds of data (memory issues)
   - Binary classification on output of LSTM
   - Trained for 10 epochs (time issues)
   - Fixed hyperparameters
   - 2,065,153 total parameters 
+  - Evaluation time over entire test dataset: 13 minutes, 24 seconds
 
 ### Results
 
