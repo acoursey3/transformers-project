@@ -55,6 +55,8 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 
 ![Evaluation accuracies.](https://github.com/acoursey3/transformers-project/blob/main/results/accuracy.png?raw=true)
 
+![Generalization for different models.](https://github.com/acoursey3/transformers-project/blob/main/results/generalize.png?raw=true)
+
 ## Code Demo
 
 See the file "demo.ipynb" for the code demo.
