@@ -74,3 +74,4 @@ The model card is stored in the [modelcard.md](modelcard.md) file. Please carefu
 - [Paper comparing transformer and lstm for audio](https://arxiv.org/abs/1909.06317)
 - [TPE hyperparameter optimization library](https://optuna.readthedocs.io/en/stable/reference/samplers/generated/optuna.samplers.TPESampler.html)
 - [Hackers clone CEO's voice](https://www.wsj.com/articles/fraudsters-use-ai-to-mimic-ceos-voice-in-unusual-cybercrime-case-11567157402)
+- [wav2vec Paper](https://arxiv.org/pdf/1904.05862.pdf)
