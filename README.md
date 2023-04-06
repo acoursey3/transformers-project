@@ -51,6 +51,8 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 
 ## Code Demo
 
+See the file "demo.ipynb" for the code demo.
+
 ## Model Card
 The model card is stored in the [modelcard.md](modelcard.md) file. Please carefully read this model card before attempting to use our pretrained models.
 
