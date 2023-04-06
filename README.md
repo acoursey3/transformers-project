@@ -13,7 +13,8 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
 
 **Research question:** *Will an LSTM outperform a Transformer model on audio classification when the dataset size is small?*
 
-- We explore this question and find that the Transformer model outperforms the LSTM in terms of generalization abilities regardless of the dataset size.
+- We explore this question by training LSTMs and Transformers on an audio classification dataset of varying sizes.
+- We find that the Transformer model outperforms the LSTM in terms of generalization abilities regardless of the dataset size.
 
 ## Method and Results
 
