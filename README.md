@@ -47,7 +47,14 @@ Project for DS 5899 Spring 2023. By Cameron Baird and Austin Coursey.
   - **INSERT INFERENCE TIME**
 
 ### Results
-**INSERT RESULS HERE**
+
+1. Training
+
+![Results from our training procedure.](https://github.com/acoursey3/transformers-project/blob/main/results/training.png?raw=true)
+
+2. Evaluation
+
+![Evaluation accuracies.](https://github.com/acoursey3/transformers-project/blob/main/results/accuracy.png?raw=true)
 
 ## Code Demo
 
