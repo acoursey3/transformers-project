@@ -59,7 +59,7 @@ The model card is stored in the [modelcard.md](modelcard.md) file. Please carefu
 - We wrote code for Tree-Structured Parzen Estimator hyperparameter optimization, but computation time was an issue. The hyperparameters may not be optimal, so our results might change with optimal hyperparameters.
 - We did not perform any gender/accent bias analysis
 - Limited evaluation metrics
-- This dataset may not be representative of their performance on other tasks
+- This dataset may not be representative of their performance on other tasks, or even up-to-date with current Text-to-Speech algorithms
 
 **Next Steps**
 - Optimize hyperparameters
